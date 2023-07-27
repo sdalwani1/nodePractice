@@ -20,5 +20,5 @@ if (command === 'add'){
 }else if(command === 'remove'){
     notes.removeNote(argv.title);
 }else{
-    console.log("Command is not recognized!");
+    console.log("Command not recognized!");
 }
